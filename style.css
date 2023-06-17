@@ -1,0 +1,30 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 100%;
+    color:aliceblue;
+}
+
+.head {
+    background-color: red;
+}
+
+.profile {
+    background-color: blue;
+}
+
+.source {
+    background-color: yellow;
+}
+
+img {
+    height: 140px;
+    weight: 140px;
+    border-radius: 50%;
+}
+
+body {
+    background: url(assets/tropical-green-leaves-background.avif) no-repeat center center fixed;
+    background-size: cover;
+}
