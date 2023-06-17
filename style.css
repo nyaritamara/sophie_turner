@@ -1,30 +1,80 @@
-html {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-size: 100%;
     color:aliceblue;
-}
-
-.head {
-    background-color: red;
-}
-
-.profile {
-    background-color: blue;
-}
-
-.source {
-    background-color: yellow;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.58;
 }
 
 img {
     height: 140px;
     weight: 140px;
     border-radius: 50%;
+    padding: 1px;
+    background-color: #666;
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: grayscale(50%);
 }
 
 body {
     background: url(assets/tropical-green-leaves-background.avif) no-repeat center center fixed;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.head, .profile {
+    width: 90%;
+    margin: 0px auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.profile {
+    background-color: rgba(16, 77, 16, .5);
+    border-radius: 100px 0px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+
+.content, .contact {
+    margin: 50px;
+}
+
+.contact {
+    padding: 30px;
+    letter-spacing: .2em;
+}
+
+h1 {
+    font-size: large;
+    transition: all 0.5s ease-in-out;
+}
+
+h1:hover {
+    transform: rotate(360deg) scale(1.5);
+}
+
+.source {
+    font-size: small;
+    bottom: 10px;
+}
+
+.content {
+    text-align: justify;
 }
